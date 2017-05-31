@@ -15,7 +15,7 @@ this launcher, with "launch options" set to `-steam_game_launch`
 
 The `gameid` of the non-steam game will be used when the configurator asks for
 the game id. It can be retrieved by creating a desktop shortcut for the non-steam
-game and check its properties. The `gameid` is the numbers following `steam://rungameid/`
+game and checking its properties. The `gameid` is the numbers following `steam://rungameid/`
 
 ## Configuration options
 
@@ -23,8 +23,8 @@ game and check its properties. The `gameid` is the numbers following `steam://ru
 * steam path (`steam_path`): The path to Steam, e.g. `C:\Program Files (x86)\Steam\Steam.exe`
 * game id (`steam_gameid`): The game id of this launcher for the specific application
 
-Additionally, the `debug` option can be turned on by editing the configuration file in order to display
-information when the game is launched and to leave the windows open.
+Additionally, the `debug` option can be turned on by editing the configuration file.
+This will display information when the game is launched leave the launch windows open.
 
 The `args` setting is used internally between activating Steam and launching the
 actual application. It is automatically set when activating Steam and cleared
