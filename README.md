@@ -38,12 +38,14 @@ Before setting up this launcher, an application may work as follows:
 
 After setting up this launcher, an application will work as follows:
 
-`Browser ->
+```plain
+Browser ->
 Launcher w/ launch arguments ->
 Launch arguments are written to config file ->
 Launcher tells Steam to run launcher (overlay and controller support enabled here) ->
 Launcher reads arguments from config file, clears arguments from file ->
-Application w/ launch arguments`
+Application w/ launch arguments
+```
 
 Note that the only reason the launcher runs the game the second time it's ran is because of
 the `-steam_game_launch` argument, which tells it that Steam is launching it to play the game
