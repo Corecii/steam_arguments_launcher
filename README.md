@@ -2,7 +2,7 @@
 
 Launches applications through Steam. Arguments passed into the launcher are passed into the configured application.
 
-This is intended for situations where an applications is launched from another
+This is intended for situations where an application is launched from another
 environment e.g. a browser, where one has little-to-no control over how it gets
 launched and what arguments are passed to it. By replacing the original executable,
 this launcher captures the arguments, then launches the game through Steam.
